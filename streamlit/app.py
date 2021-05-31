@@ -45,7 +45,7 @@ def main():
 
    
     inputs=np.array([[a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p]])
-    inputs = inputs.astype(np.float)
+    #inputs = inputs.astype(np.float)
     
     if st.button('Predict'):#button name is Classify
         if option == 'Linear Regression':
