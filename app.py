@@ -20,7 +20,7 @@ def main():
     
     
     st.markdown(html_temp, unsafe_allow_html=True)
-    activities=['Linear Regression','Xgboost','Random Forest']
+    activities=['Linear Regression','Xgboost']
     option=st.sidebar.selectbox('Select the model',activities)
     st.subheader(option)
     
